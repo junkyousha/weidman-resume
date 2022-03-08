@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Резюме</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img
+          class="avatar"
+          src="https://i.pinimg.com/originals/4b/c5/6f/4bc56fbb4c04b25808150bab71d2f154.jpg"
+          alt="тут фотка бойца"
+        />
+        <div class="info-text">
+          <h1>Крис Вайдман</h1>
+          <p>Бывший чемпион UFC в <strong>среднем весе</strong>.</p>
+          <p>
+            Завоевал титул чемпиона в бою с Андерсоном Сильвой и провел три
+            успешные защиты титула.
+          </p>
+          <h4>Социальные сети</h4>
+
+          <a href="https://www.instagram.com/chrisweidman/" target="_blank"
+            >Instagram</a
+          >
+          |
+          <a
+            href="https://www.youtube.com/c/ChrisWeidmanMMA/videos"
+            target="_blank"
+            >YouTube</a
+          >
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>Список побежденных соперников в титульных боях:</h2>
+        <ol class="list">
+          <li>Андерсон Сильва</li>
+          <li>Лиота Мачида</li>
+          <li>Витор Белфорт</li>
+        </ol>
+      </div>
+      <div class="card bg-green">
+        <h2>Карьера ММА</h2>
+        <table class="table">
+          <tr>
+            <th>Промоушен</th>
+            <th>Количество боев</th>
+            <th>Год</th>
+          </tr>
+          <tr>
+            <td>ROC</td>
+            <td>Первые 4 боя</td>
+            <td>2009-2010</td>
+          </tr>
+          <tr>
+            <td>UFC</td>
+            <td>С 5-ого боя до 21-ого</td>
+            <td>2010-2022</td>
+          </tr>
+        </table>
+      </div>
+      <div class="card bg-red">
+        <h2>Записи боев</h2>
+        <ul class="link-list">
+          <li>
+            <a href="https://youtu.be/tQgA4UJt9jA" target="_blank"
+              >Крис Вайдман - Лиото Мачида</a
+            >
+          </li>
+          <li>
+            <a href="https://youtu.be/YIQr16LnSqg" target="_blank"
+              >Лучшие финиши</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h2>Связаться с бойцом</h2>
+        <form>
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Организация:</label>
+              <input type="text" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Ваш Email:</label>
+              <input type="email" id="email" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="date">Дата выступления:</label>
+            <input type="date" id="date" />
+          </div>
+          <div class="form-group">
+            <label for="text">Подробности проведения турнира:</label>
+          </div>
+          <div class="form-group">
+            <textarea id="text" cols="15" rows="3"></textarea>
+          </div>
+          <input class="btn" type="submit" value="Отправить предложение" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
